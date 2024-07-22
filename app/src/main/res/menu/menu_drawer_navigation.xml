@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/search"
+        android:title="جستجو"
+        android:icon="@drawable/ic_baseline_search_24"
+/>
+</group>
+    <group>
+        <item
+            android:id="@+id/announcement"
+            android:title="  سرفصل ها">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_baseline_family_restroom_24"
+                    android:id="@+id/Welfare"
+                    android:title="امور رفاهی"
+                    />
+                <item
+                    android:icon="@drawable/ic_online_survey"
+                    android:id="@+id/Survey"
+                    android:title="نظر سنجی"
+                    />
+                <item
+                    android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:id="@+id/journals"
+                    android:title="نشریات"
+                    />
+
+                <item
+                    android:icon="@drawable/ic_baseline_handshake_24"
+                    android:id="@+id/contracts"
+                    android:title="طرف قرارداد"
+                    />
+
+
+            </menu>
+
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/social"
+            android:title="  صفحات ما">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_instagram_seeklogo_com"
+                    android:id="@+id/instagram"
+                    android:title="اینستاگرام"
+                    />
+                <item
+                    android:icon="@drawable/ic_telegram_2"
+                    android:id="@+id/telegram"
+                    android:title="تلگرام"
+                    />
+
+                <item
+                    android:icon="@drawable/ic_baseline_language_24"
+                    android:id="@+id/website"
+                    android:title="وب سایت"
+                    />
+                <item
+                    android:icon="@drawable/ic_baseline_ondemand_video_24"
+                    android:id="@+id/aparat"
+                    android:title="آپارات"
+                    />
+            </menu>
+
+        </item>
+    </group>
+    <group>
+        <item
+            android:title="  اشتراک"
+            >
+            <menu>
+                <item
+                    android:id="@+id/share"
+                    android:title="اشتراک گذاری برنامه"
+                    android:icon="@drawable/ic_baseline_share_24"
+
+                    />
+            </menu>
+        </item>
+
+    </group>
+</menu>

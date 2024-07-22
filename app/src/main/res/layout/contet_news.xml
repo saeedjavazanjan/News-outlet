@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_bookmark"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_baseline_bookmark_border_24"
+        app:tint="@color/gray" />
+    <TextView
+        android:id="@+id/txt_date_news"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+    <TextView
+        android:fontFamily="@font/iransans"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:text="test"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp"
+        android:id="@+id/txt_content_news"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  <!--  <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:lineSpacingExtra="10dp"
+        android:id="@+id/txt_content_news"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+</LinearLayout>
